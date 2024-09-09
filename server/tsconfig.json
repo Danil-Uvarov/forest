@@ -1,0 +1,3 @@
+{
+  "extends": "../../project/Forest/.nuxt/tsconfig.server.json"
+}

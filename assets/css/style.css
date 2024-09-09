@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    src: url(/assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    src: url(/assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    src: url(/assets/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 900;
+    src: url(/assets/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: "MuseoModerno";
+    font-weight: 800;
+    src: url(/assets/fonts/MuseoModerno-ExtraBold.ttf);
+}
+
+:root,
+html {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: white;
+    --transition: transform 0.4s ease;
+}
+
+* {
+    background: none;
+}
+h2{
+    font-weight: 700;
+    font-size: 96px;
+}
+p{
+    font-weight: 300;
+    font-size: 20px;
+}
